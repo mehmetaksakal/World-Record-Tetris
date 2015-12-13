@@ -1,5 +1,8 @@
 On the 15th of December 2014 students of the study association e.t.s.v. Thor of the University of Technology Eindhoven held their second attempt at the World Record Largest game of Tetris. This is the code used in the controller nodes and the desktop applications.
 
+First run:
+https://www.youtube.com/watch?v=KjzhClK_t5Q
+
 TU/e reporters:
 https://www.youtube.com/watch?v=qlx7rzFrnhI
 
