@@ -1,1 +1,5 @@
 On the 15th of December 2014 e.t.s.v. Thor held their second attempt at the World Record Largest game of Tetris. This is the code used in the controller nodes and the desktop applications.
+
+The project consists of two parts. The first being the embedded code for the CANbus nodes, these in turn also have two kinds. One being the entrynodes which have a USB to UART interface. These act as the USB to CAN bridges, their only duty is to litterally bridge the gap between USB and the CAN network. The second type being the LEDnodes, these nodes are hooked up to the RGB LED's.
+
+The second part of the project are the C++ applications which run on a Windows machine. The Tetris game ofcourse must run in the field and allows the user to control the field. The Tetris game communicates with the Fieldcontroller, the Fieldcontroller will receive the current game status from the game and project it onto the big LED field. It will also show networkstatus updates.
