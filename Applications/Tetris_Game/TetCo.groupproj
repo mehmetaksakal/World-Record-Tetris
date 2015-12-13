@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D695DD4B-6F20-45A7-B61A-D5C7C9F8CB8D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Tetris.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Tetris">
+        <MSBuild Projects="Tetris.cbproj"/>
+    </Target>
+    <Target Name="Tetris:Clean">
+        <MSBuild Projects="Tetris.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Tetris:Make">
+        <MSBuild Projects="Tetris.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Tetris"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Tetris:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Tetris:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
