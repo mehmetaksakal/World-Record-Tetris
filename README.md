@@ -10,7 +10,7 @@ The project consists of two parts. The first being the embedded code for the CAN
 
 The second part of the project are the C++ applications which run on a Windows machine. The Tetris game ofcourse must run in the field and allows the user to control the field. The Tetris game communicates with the Fieldcontroller, the Fieldcontroller will receive the current game status from the game and project it onto the big LED field. It will also show networkstatus updates.
 
-The embedded code was writen and compiled using the LPCxpresso IDE, the Windows applications were written and compiled using Embarcadero C++ Builder.
+The embedded code was writen and compiled against CMSIS using the LPCxpresso IDE, the Windows applications were written and compiled using Embarcadero C++ Builder, extensive use of VCL objects limit portability.
 
 The code might be messy and there is no streamlined way of getting the projects to run. Keep in mind that this was made for a one of a kind student project and was never intended for public release. I am releasing this code so it might benefits others in their own projects.
 
