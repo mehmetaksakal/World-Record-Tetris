@@ -1,7 +1,10 @@
 On the 15th of December 2014 students of the study association e.t.s.v. Thor of the University of Technology Eindhoven held their second attempt at the World Record Largest game of Tetris. This is the code used in the controller nodes and the desktop applications.
 
-TU/e reporters segment:
+TU/e reporters:
 https://www.youtube.com/watch?v=qlx7rzFrnhI
+
+Studio 040 report:
+https://www.youtube.com/watch?v=3iu0smiywXw
 
 The project consists of two parts. The first being the embedded code for the CANbus nodes, these in turn also have two kinds. One being the entrynodes which have a USB to UART interface. These act as the USB to CAN bridges, their only duty is to litterally bridge the gap between USB and the CAN network. The second type being the LEDnodes, these nodes are hooked up to the RGB LED's.
 
