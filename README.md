@@ -7,3 +7,5 @@ The second part of the project are the C++ applications which run on a Windows m
 The embedded code was writen and compiled using the LPCxpresso IDE, the Windows C++ was written and compiled using Embarcadero C++ Builder.
 
 The code might be messy and there is no streamlined way of getting the projects to run. Keep in mind that this was made for a one of a kind student project and was never intended for public release. I am releasing this code so it might benefits others in their own projects.
+
+If your are interested in using the code in your own projects but have a few questions then feel free to contact me. Please do not contact me if you just want to play tetris and can't get it to run or don't know where to start.
